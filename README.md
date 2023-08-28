@@ -1,3 +1,21 @@
+# Bom dia, boa tarde e boa noite.
+## Por João Ricardo R. de Moraes.
+
+Projeto final do curso da Alura "React: Desenvolvendo em React Router com JavaScript"  ([https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript]).
+
+Disponível como aplicativo na Vercel em [https://alura-react-desenvolvendo-em-react-router-com-java-script.vercel.app/]
+ou como código-fonte no GitHub em [https://github.com/JRRMoraes/Alura_React_DesenvolvendoEmReactRouterComJavaScript]
+
+
+Contato no LinkedIn com João Moraes por [https://www.linkedin.com/in/jo%C3%A3o-moraes-b612a974]
+
+
+### ==================================================
+### ==================================================
+### ==================================================
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
