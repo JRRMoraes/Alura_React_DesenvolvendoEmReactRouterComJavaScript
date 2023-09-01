@@ -4,6 +4,9 @@ import Rodape from "componentes/Rodape";
 import PaginaPadrao from "componentes/PaginaPadrao";
 import Inicio from "paginas/Inicio";
 import SobreMim from "paginas/SobreMim";
+import NaoEncontrada from "paginas/NaoEncontrada";
+import Post from "componentes/Post";
+import ScrollToTop from "componentes/ScrollToTop";
 
 
 export default function App() {
@@ -21,8 +24,11 @@ export default function App() {
                         element={<SobreMim />}
                     />
                 </Route>
+                <Route path="posts/:id"
+                    element={<Post />}
+                />
                 <Route path="*"
-                    element={<div>Página não encontrada!</div>}
+                    element={<NaoEncontrada />}
                 />
             </Routes>
         )
@@ -32,6 +38,7 @@ export default function App() {
     return (
         <div className="App">
             <BrowserRouter>
+                <ScrollToTop />
                 <Menu />
                 {ImporRotas()}
                 <Rodape />
